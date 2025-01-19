@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.debug {
+    header {
+        background-image: url(assets/img/hero-bg.jpg);
+    }
+
+    #jumbotron {
+        background-image: url(assets/img/hero-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #community {
+        background-color: #f6f6f6;
+    }
+
+    #technology {
+        background-color: #f6f6f6;
+    }
+
+    #references {
+        background-color: #23272a;
+    }
+
+    #logo-footer {
+        background-color: #23272a;
+    }
+}
+
+.m-A {
+    margin: auto;
+}
+
+.vertical-pad {
+    padding: 2rem 0 2rem 0;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.description {
+    /* background-color: #1e90ff; */
+    min-height: 400px;
+    padding: 6rem;
+
+    h1 {
+        margin-bottom: 2rem;
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: large;
+    }
+}
+
+.image {
+    /*  background-color: #ffc0cb; */
+    min-height: 400px;
+}
+
+.bor-dot {
+    border: 2px dotted red;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    padding: 10px 0 10px 0;
+
+}
+
+#svg-1 {
+    background-image: url(assets/img/section-1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#svg-2 {
+    background-image: url(assets/img/section-2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#svg-3 {
+    background-image: url(assets/img/section-3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#svg-4 {
+    background-image: url(assets/img/section-4.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#references {
+    padding: 5px 0 2rem 0;
+}
+
+#logo-footer {
+    border-top: 2px solid grey;
+}
+
+#logo-container {
+    /* background-color: #daa520; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0 5px 0;
+
+
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 2rem;
+        width: 40%;
+
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: small;
+            font-weight: bold;
+
+
+
+        }
+
+    }
+
+    #logo {
+        width: 25%;
+
+    }
+
+    #login {
+        width: 25%;
+        text-align: end;
+
+
+
+        #log-btn {
+            padding: 10px;
+            background-color: white;
+            border-radius: 20px;
+            border: none;
+            font-weight: bold;
+
+            &:hover {
+                background-color: grey;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+#jumbo-container {
+    width: 50%;
+    text-align: center;
+    padding: 5rem;
+
+    h1 {
+        margin-bottom: 3rem;
+        color: white;
+        font-size: 50px;
+    }
+
+    #jumbo-text {
+        margin-bottom: 2rem;
+        color: white;
+
+    }
+
+    #download-btn {
+        padding: 10px;
+        background-color: white;
+        border-radius: 20px;
+        border: none;
+        font-weight: bold;
+
+        &:hover {
+            background-color: grey;
+            cursor: pointer;
+
+        }
+    }
+
+    #browser-btn {
+        margin-left: 1rem;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        font-weight: bold;
+
+        &:hover {
+            background-color: grey;
+            cursor: pointer;
+        }
+    }
+}
+
+#techno-container {
+
+    #svg-4 {
+        height: 30rem;
+        width: 50rem;
+        margin: auto;
+    }
+
+    #techno-text {
+        height: auto;
+        text-align: center;
+
+        h1 {
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: large;
+        }
+    }
+
+    #question {
+        text-align: center;
+
+        h1 {
+            margin-bottom: 2rem;
+            background-image: url(assets/img/sparkles.svg);
+        }
+
+        button {
+            padding: 20px;
+            background-color: #8ea1e1;
+            border-radius: 50px;
+            border: none;
+            font-size: medium;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 5rem;
+
+            &:hover {
+                background-color: grey;
+                cursor: pointer;
+
+            }
+
+        }
+    }
+}
+
+#ref-container {
+
+    #ref-image {
+        background-color: #f08080;
+        min-height: 400px;
+    }
+
+    .ref-links {
+        background-color: #20b2aa;
+        min-height: 400px;
+    }
+}
+
+#foot-container {
+    height: 4rem;
+    background-color: #7fffd4;
+    margin: 1rem auto 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+    #foot-logo {
+        background-color: #ffb6c1;
+        height: 1.5rem;
+    }
+
+    #foot-btn {
+        background-color: #ffb6c1;
+        height: 1.5rem;
+    }
+}
