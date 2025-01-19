@@ -44,7 +44,10 @@
 
             </ul>
             <div id="login">
-                <button id="log-btn" type="button" onclick="alert('GET STARTED!')">Accedi</button>
+                <a href="https://canary.discord.com/login" target="_blank">
+                    <button id="log-btn" type="button">Accedi</button>
+                </a>
+
             </div>
         </div>
 
@@ -57,9 +60,18 @@
                 <h1>Il tuo posto per parlare</h1>
                 <div id="jumbo-text">Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica
                     mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord
-                    rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.</div>
-                <button type="button" id="download-btn">&#10515; Scarica per mac</button>
-                <button type="button" id="browser-btn">Apri discord nel tuo browser</button>
+                    rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
+                </div>
+                <a href="https://discord.com/download" target="_blank">
+                    <button type="button" id="download-btn" onclick="alert('GET STARTED!')">
+                        &#10515; Scarica Discord
+                    </button>
+                </a>
+                <a href="https://discord.com/" target="_blank">
+                    <button type="button" id="browser-btn">Apri discord nel tuo browser</button>
+                </a>
+
+
             </div>
         </section>
         <section id="invite-only" class=" vertical-pad ">
@@ -110,7 +122,10 @@
                 <div id="svg-4"></div>
                 <div id="question">
                     <h1>Pronto a iniziare la tua avventura?</h1>
-                    <button type="button">&#10515;Scarica per mac</button>
+                    <a href="https://discord.com/api/download?platform=osx" target="_blank">
+                        <button type="button">&#10515;Scarica per mac</button>
+                    </a>
+
                 </div>
             </div>
         </section>
@@ -294,10 +309,13 @@
         <section id="logo-footer">
             <div id="foot-container" class="w-80  flex">
                 <div id="foot-logo">
-                    <a href="https://discord.com/channels/@me" target="_blank"><img src="assets/img/logo.svg"
-                            alt=""></a>
+                    <a href="https://discord.com/channels/@me" target="_blank">
+                        <img src="assets/img/logo.svg" alt="">
+                    </a>
                 </div>
-                <button type="button" id="foot-btn">Registrati</button>
+                <a href="https://discord.com/channels/@me">
+                    <button type="button" id="foot-btn">Apri Discord</button>
+                </a>
             </div>
         </section>
     </footer>

@@ -351,6 +351,10 @@ header {
 
     #foot-logo {
         width: 10%;
+
+        a:hover {
+            cursor: pointer;
+        }
     }
 
     #foot-btn {
