@@ -321,8 +321,24 @@ header {
     }
 
     .ref-links {
-        background-color: #20b2aa;
         min-height: 400px;
+        padding: 2rem;
+
+        ul {
+            color: #7289da;
+            list-style: none;
+            font-weight: bold;
+
+            li {
+                margin-top: 0.5rem;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    font-size: small;
+                }
+            }
+        }
     }
 }
 
