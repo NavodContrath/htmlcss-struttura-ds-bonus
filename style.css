@@ -133,6 +133,7 @@ header {
 
 #logo-footer {
     border-top: 2px solid grey;
+
 }
 
 #logo-container {
@@ -266,9 +267,9 @@ header {
         }
 
         button {
-            padding: 20px;
+            padding: 15px;
             background-color: #8ea1e1;
-            border-radius: 50px;
+            border-radius: 100px;
             border: none;
             font-size: medium;
             font-weight: bold;
@@ -344,18 +345,21 @@ header {
 
 #foot-container {
     height: 4rem;
-    background-color: #7fffd4;
     margin: 1rem auto 0 auto;
     justify-content: space-between;
     align-items: center;
 
     #foot-logo {
-        background-color: #ffb6c1;
-        height: 1.5rem;
+        width: 10%;
     }
 
     #foot-btn {
-        background-color: #ffb6c1;
-        height: 1.5rem;
+        background-color: #8ea1e1;
+        color: white;
+        height: 2rem;
+        border: none;
+        border-radius: 20px;
+        padding: 10px;
+        font-weight: bold;
     }
 }
