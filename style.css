@@ -57,74 +57,29 @@
     width: 40%;
 }
 
-.bor-dot {
-    border: 2px dotted red;
-}
-
 .flex {
     display: flex;
-}
-
-.j-cent {
-    justify-content: center;
 }
 
 .a-cent {
     align-items: center;
 }
 
-.f-column {
-    flex-direction: column;
-}
-
 .description {
     /* background-color: #1e90ff; */
-    min-height: 400px;
+
     padding: 6rem;
+    color: #23272a;
 
     h1 {
         margin-bottom: 2rem;
         font-size: 2.5rem;
     }
-
-    p {
-        font-size: large;
-    }
-}
-
-.image {
-    /*  background-color: #ffc0cb; */
-    min-height: 400px;
 }
 
 header {
     padding: 10px 0 10px 0;
 
-}
-
-#svg-1 {
-    background-image: url(assets/img/section-1.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-
-}
-
-#svg-2 {
-    background-image: url(assets/img/section-2.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-#svg-3 {
-    background-image: url(assets/img/section-3.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-#svg-4 {
-    background-image: url(assets/img/section-4.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 #references {
@@ -133,45 +88,33 @@ header {
 
 #logo-footer {
     border-top: 2px solid grey;
-
 }
 
 #logo-container {
-    /* background-color: #daa520; */
-    justify-content: space-between;
-    align-items: center;
     padding: 5px 0 5px 0;
-
+    flex-wrap: wrap;
 
     ul {
+        padding: 1rem;
         list-style: none;
         display: flex;
         gap: 2rem;
-        width: 40%;
-
 
         a {
             text-decoration: none;
             color: white;
             font-size: small;
             font-weight: bold;
-
-
-
         }
-
     }
 
     #logo {
-        width: 25%;
-
+        flex-grow: 1;
     }
 
     #login {
-        width: 25%;
+        flex-grow: 1;
         text-align: end;
-
-
 
         #log-btn {
             padding: 10px;
@@ -189,7 +132,7 @@ header {
 }
 
 #jumbo-container {
-    width: 50%;
+    width: 60%;
     text-align: center;
     padding: 5rem;
 
@@ -236,30 +179,23 @@ header {
 }
 
 #techno-container {
-    flex-direction: column;
+    text-align: center;
 
     #svg-4 {
-        height: 30rem;
-        width: 50rem;
-
+        width: 100%;
     }
 
     #techno-text {
-        height: auto;
-        text-align: center;
+        padding: 2rem;
 
         h1 {
             margin-bottom: 2rem;
             font-size: 2.5rem;
         }
 
-        p {
-            font-size: large;
-        }
     }
 
     #question {
-        text-align: center;
 
         h1 {
             margin-bottom: 2rem;
@@ -344,7 +280,7 @@ header {
 }
 
 #foot-container {
-    height: 4rem;
+    padding-bottom: 3rem;
     margin: 1rem auto 0 auto;
     justify-content: space-between;
     align-items: center;
